@@ -1,0 +1,27 @@
+.msg-nav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #999;
+  padding-bottom: 5px;
+}
+
+.inbox-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15px ;
+}
+.msg-p{
+   font-weight: 600; 
+}
+.req-p{
+    font-weight: 500;
+    color:#0095F6;
+}
+i{
+  padding: 10px 10px 0px 15px;
+  font-size: 30px;
+}
+.scroll-msg{
+    height: 50vh;
+    width: 100vw;
+}

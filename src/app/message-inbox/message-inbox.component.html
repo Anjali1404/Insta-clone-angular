@@ -1,0 +1,16 @@
+<nav class="msg-nav">
+  <a><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+  <h6>Direct</h6>
+  <a><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+</nav>
+<div class="scroll-msg">
+    <div class="inbox-header">
+      <p class="msg-p">Messages</p>
+      <p class="req-p">1 Request</p>
+    </div>
+    
+    <div *ngFor = "let i of [1,2,3,4,5,6,7,8,9,10,11,12]">
+        <app-messages></app-messages>
+    </div>
+</div>
+
